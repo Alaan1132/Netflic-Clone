@@ -1,0 +1,36 @@
+.heading {
+  margin: 0;
+}
+.color-primary {
+  color: var(--color--primary);
+}
+.color-base {
+  color: var(--color--fontBase);
+}
+.color-inverted {
+  color: var(--color--fontBaseInverted);
+}
+.color-muted {
+  color: var(--color--fontBaseMuted);
+}
+.size-xs {
+  font-size: var(--fontSize--xs);
+}
+.size-sm {
+  font-size: var(--fontSize--sm);
+}
+.size-md {
+  font-size: var(--fontSize--md);
+}
+.size-lg {
+  font-size: var(--fontSize--lg);
+}
+.size-xl {
+  font-size: var(--fontSize--xl);
+}
+.weight-normal {
+  font-weight: var(--fontWeight--medium);
+}
+.weight-bold {
+  font-weight: var(--fontWeight--bold);
+}
