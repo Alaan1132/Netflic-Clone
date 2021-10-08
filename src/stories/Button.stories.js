@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Button } from '../atoms/Buttons/Button';
 import { options } from '../constants';
 

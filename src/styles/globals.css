@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  font-family: var(--fontFamily--sans);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: var(--fontSize--base);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+#root {
+  height: 100%;
+}
