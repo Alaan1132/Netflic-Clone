@@ -1,0 +1,28 @@
+.navbar {
+  position: relative;
+  z-index: 10;
+  padding: 0.5rem 0;
+}
+.inner_container {
+  display: flex;
+  z-index: 10;
+  margin: 0 auto;
+  align-items: center;
+  height: auto;
+}
+.primary {
+  display: flex;
+  min-width: 100px;
+  width: 30%;
+}
+.secondary {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: stretch;
+  margin-left: auto;
+}
+.logo {
+  display: inline-flex;
+  max-width: 150px;
+}
