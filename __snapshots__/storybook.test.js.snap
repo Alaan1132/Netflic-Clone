@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Buttons Default 1`] = `
+<button
+  className="btn primary"
+>
+  Comenzar
+</button>
+`;
+
+exports[`Storyshots Atoms/Buttons Types 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "display": "flex",
+      "gap": "2rem",
+    }
+  }
+>
+  <button
+    className="btn primary"
+  >
+    Comenzar
+  </button>
+  <button
+    className="btn secondary"
+  >
+    Comenzar
+  </button>
+  <button
+    className="btn tertiary"
+  >
+    Comenzar
+  </button>
+  <button
+    className="btn outline-primary"
+  >
+    Comenzar
+  </button>
+  <button
+    className="btn outline-muted"
+  >
+    Comenzar
+  </button>
+</div>
+`;
