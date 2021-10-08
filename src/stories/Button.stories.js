@@ -1,4 +1,4 @@
-import { Button } from '../atoms/Buttons/Button';
+import { Button } from '../atoms/Buttons';
 import { options } from '../constants';
 
 export default {
