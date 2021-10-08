@@ -1,0 +1,19 @@
+.icon {
+  pointer-events: none;
+}
+.color-base > :is(path, polygon) {
+  fill: var(--color--fontBase);
+  color: var(--color--base--white);
+}
+.color-inverted > :is(path, polygon) {
+  fill: var(--color--fontBaseInverted);
+}
+.color-primary > :is(path, polygon) {
+  fill: var(--color--primary);
+}
+.color-secondary > :is(path, polygon) {
+  fill: var(--color--secondary);
+}
+.color-yellow > :is(path, polygon) {
+  fill: var(--color--yellow--400);
+}

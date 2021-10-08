@@ -25,7 +25,7 @@ Default.args = {
 export const Types = (args) => (
   <div style={{ display: 'flex', gap: '2rem', alignItems: 'flex-end' }}>
     {options.types.map((type) => (
-      <Button type={type} {...args} />
+      <Button type={type} {...args} key={type} />
     ))}
   </div>
 );
