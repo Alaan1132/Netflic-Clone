@@ -1,0 +1,21 @@
+.border--bottom {
+  border-bottom: 1px solid #e6e6e6;
+}
+.transparent {
+  background-color: var(--color--base--transparent);
+}
+.p-0 {
+  padding: 0;
+}
+.color-blue {
+  color: var(--color--tertiary);
+}
+.isBlock {
+  display: block;
+}
+.weight-normal {
+  font-weight: var(--fontWeight--medium);
+}
+.weight-bold {
+  font-weight: var(--fontWeight--bold);
+}
