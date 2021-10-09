@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 import { options } from '../../../constants';
 import styles from './Heading.module.css';
 
-export const Heading = ({ tag = 'h1', color, size, weight, children, ...props }) => {
-  console.log(tag);
+export const Heading = ({ tag, color, size, weight, children }) => {
   return createElement(
     tag,
     {
@@ -22,7 +21,7 @@ export const Heading = ({ tag = 'h1', color, size, weight, children, ...props })
 
 Heading.propTypes = {
   children: PropTypes.node.isRequired,
-  tag: PropTypes.oneOf(options.tags),
+  tag: PropTypes.oneOf(options.tags).isRequired,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
   weight: PropTypes.oneOf(options.weights),
