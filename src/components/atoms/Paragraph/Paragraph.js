@@ -3,7 +3,7 @@ import React from 'react';
 import classNames from 'classnames';
 import styles from './Paragraph.module.css';
 import PropTypes from 'prop-types';
-import { options } from '../../constants';
+import { options } from '../../../constants';
 
 export const Paragraph = ({ children, size, color, weight }) => {
   return (

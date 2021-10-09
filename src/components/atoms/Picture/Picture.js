@@ -7,7 +7,7 @@ import styles from './Picture.module.css';
 export const Picture = ({ src, width, height }) => {
   return (
     <picture className={classNames(styles.picture)}>
-      <img src={src} style={{ height, maxWidth: width }} />
+      <img src={src} style={{ height, maxWidth: width }} alt="img" />
     </picture>
   );
 };

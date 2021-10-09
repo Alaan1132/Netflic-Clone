@@ -1,14 +1,15 @@
 import React from 'react';
 
-import { Navbar } from '../layout/Navbar';
+import { Navbar } from '../components/layout/Navbar';
 import { SignUp } from './Links.stories';
 import { SelectLanguage } from './Dropdown.stories';
-import { Picture } from '../atoms/Picture/Picture';
+import { Picture } from '../components/atoms/Picture/Picture';
 import utilStyles from '../utils/tools-styles.module.css';
 
 export default {
   title: 'Layout/Navbar',
   component: Navbar,
+  args: {},
 };
 
 export const NavLandingPage = (args) => (
@@ -19,12 +20,13 @@ export const NavLandingPage = (args) => (
           <Picture
             src="https://res.cloudinary.com/desxpqy6n/image/upload/v1630518956/Netflix%20Clone/netflix-logo_kuii2i.png"
             width="100%"
+            {...Picture.args}
           />
         </Navbar.Logo>
       </Navbar.Primary>
       <Navbar.Secondary>
-        <SelectLanguage {...args} />
-        <SignUp size="xs" type="primary" {...args} />
+        <SelectLanguage {...SelectLanguage.args} />
+        <SignUp size="xs" type="primary" {...SignUp.args} />
       </Navbar.Secondary>
     </Navbar.InnerContainer>
   </Navbar>

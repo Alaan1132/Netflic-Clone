@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Icon } from '../atoms/Icons';
+import { Icon } from '../components/atoms/Icons';
 import { options } from '../constants';
 
 export default {
@@ -21,7 +21,7 @@ export default {
       control: { type: 'select' },
     },
     color: {
-      options: options.colors,
+      options: options.colors.concat('yellow'),
       control: { type: 'select' },
     },
   },

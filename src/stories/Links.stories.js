@@ -1,11 +1,14 @@
 import React from 'react';
 
-import { Link } from '../atoms/Links';
+import { Link } from '../components/atoms/Links';
 import { options } from '../constants';
 
 export default {
   title: 'Atoms/Links',
   component: Link,
+  args: {
+    size: 'md',
+  },
   argTypes: {
     type: {
       options: options.types,
@@ -28,4 +31,5 @@ Default.args = {
 export const SignUp = Template.bind({});
 SignUp.args = {
   children: 'Iniciar sesion',
+  type: 'primary',
 };

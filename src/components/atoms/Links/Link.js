@@ -2,11 +2,12 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 import styles from './Links.module.css';
-import { options } from '../../constants';
+import { options } from '../../../constants';
 
-export const Link = ({ children, type, size }) => {
+export const Link = ({ children, path, type, size }) => {
   return (
     <a
+      href={path}
       className={classNames(styles.link, {
         [styles[type]]: type,
         [styles[`size-${size}`]]: size,

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Heading } from '../atoms/Heading/Heading';
+import { Heading } from '../components/atoms/Heading/Heading';
 import { options } from '../constants';
 
 export default {

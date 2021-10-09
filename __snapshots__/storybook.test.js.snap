@@ -62,8 +62,8 @@ exports[`Storyshots Atoms/Icon Default 1`] = `
     className="color-base"
     style={
       Object {
-        "height": 35,
-        "width": 35,
+        "height": 22,
+        "width": 22,
       }
     }
     viewBox="0 0 512 512"
@@ -81,7 +81,7 @@ exports[`Storyshots Atoms/Icon Default 1`] = `
 
 exports[`Storyshots Atoms/Links Default 1`] = `
 <a
-  className="link"
+  className="link size-md"
 >
   Link
 </a>
@@ -89,7 +89,7 @@ exports[`Storyshots Atoms/Links Default 1`] = `
 
 exports[`Storyshots Atoms/Links Sign Up 1`] = `
 <a
-  className="link"
+  className="link primary size-md"
 >
   Iniciar sesion
 </a>
@@ -136,6 +136,7 @@ exports[`Storyshots Atoms/Picture Default 1`] = `
   className="picture"
 >
   <img
+    alt="img"
     src="https://picsum.photos/id/1033/400/400"
     style={
       Object {
@@ -164,6 +165,7 @@ exports[`Storyshots Layout/Navbar Nav Landing Page 1`] = `
           className="picture"
         >
           <img
+            alt="img"
             src="https://res.cloudinary.com/desxpqy6n/image/upload/v1630518956/Netflix%20Clone/netflix-logo_kuii2i.png"
             style={
               Object {
@@ -232,7 +234,7 @@ exports[`Storyshots Layout/Navbar Nav Landing Page 1`] = `
           </svg>
         </div>
         <select
-          className="select-language"
+          className="select-language size-xs"
         >
           <option
             data-country="MX"
@@ -283,7 +285,7 @@ exports[`Storyshots Layout/Navbar Nav Landing Page 1`] = `
       <a
         className="link primary size-xs"
       >
-        Link
+        Iniciar sesion
       </a>
     </div>
   </div>
@@ -307,6 +309,7 @@ exports[`Storyshots Layout/Navbar Signup Navbar 1`] = `
           className="picture"
         >
           <img
+            alt="img"
             src="https://res.cloudinary.com/desxpqy6n/image/upload/v1630518956/Netflix%20Clone/netflix-logo_kuii2i.png"
             style={
               Object {
@@ -322,7 +325,7 @@ exports[`Storyshots Layout/Navbar Signup Navbar 1`] = `
       className="secondary"
     >
       <a
-        className="link secondary size-xs"
+        className="link primary size-xs"
       >
         Cerrar sesion
       </a>
@@ -348,8 +351,8 @@ exports[`Storyshots Molecules/Dropdown Select Language 1`] = `
       className="color-inverted"
       style={
         Object {
-          "height": 14,
-          "width": 14,
+          "height": 22,
+          "width": 22,
         }
       }
       viewBox="0 0 512 512"
@@ -386,7 +389,7 @@ exports[`Storyshots Molecules/Dropdown Select Language 1`] = `
     </svg>
   </div>
   <select
-    className="select-language"
+    className="select-language size-md"
   >
     <option
       data-country="MX"
@@ -418,8 +421,8 @@ exports[`Storyshots Molecules/Dropdown Select Language 1`] = `
       className="color-inverted"
       style={
         Object {
-          "height": 14,
-          "width": 14,
+          "height": 22,
+          "width": 22,
         }
       }
       viewBox="0 0 512 512"

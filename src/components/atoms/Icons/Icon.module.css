@@ -1,5 +1,6 @@
 .icon {
   pointer-events: none;
+  display: inline-flex;
 }
 .color-base > :is(path, polygon) {
   fill: var(--color--fontBase);
