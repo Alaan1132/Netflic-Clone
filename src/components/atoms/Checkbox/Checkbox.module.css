@@ -1,0 +1,23 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gap--md);
+}
+
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color--fontBaseMuted);
+  border-radius: var(--borderRadius--sm);
+}
+
+.checkbox input {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.container p {
+  user-select: none;
+}

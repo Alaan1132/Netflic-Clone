@@ -46,6 +46,50 @@ exports[`Storyshots Atoms/Buttons Types 1`] = `
 </div>
 `;
 
+exports[`Storyshots Atoms/Checkbox Default 1`] = `
+<div
+  className="container"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox"
+  >
+    <div
+      className="hidden"
+    >
+      <svg
+        className="color-base"
+        style={
+          Object {
+            "height": 22,
+            "width": 22,
+          }
+        }
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <desc>
+          check
+        </desc>
+        <path
+          d="M3.707 12.293l-1.414 1.414L8 19.414 21.707 5.707l-1.414-1.414L8 16.586z"
+        />
+      </svg>
+    </div>
+    <input
+      checked={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </div>
+  <p
+    className="paragraph size-md color-base weight-normal"
+  >
+    Acepto
+  </p>
+</div>
+`;
+
 exports[`Storyshots Atoms/Heading Default 1`] = `
 <h1
   className="heading color-base weight-bold"

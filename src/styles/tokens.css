@@ -56,9 +56,9 @@
 	--fontWeight--black: 900;
 	--borderRadius--none: 0;
 	--borderRadius--xs: 2px;
-	--borderRadius--sm: 10px;
-	--borderRadius--md: 20px;
-	--borderRadius--lg: 30px;
+	--borderRadius--sm: 4px;
+	--borderRadius--md: 6px;
+	--borderRadius--lg: 8px;
 	--borderRadius--full: 9999px;
 
  	--color--primary: #E50914;

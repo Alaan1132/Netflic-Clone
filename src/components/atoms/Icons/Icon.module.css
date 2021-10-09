@@ -9,6 +9,9 @@
 .color-inverted > :is(path, polygon) {
   fill: var(--color--fontBaseInverted);
 }
+.color-muted > :is(path, polygon) {
+  fill: var(--color--fontBaseMuted);
+}
 .color-primary > :is(path, polygon) {
   fill: var(--color--primary);
 }

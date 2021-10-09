@@ -77,9 +77,9 @@ const choices = {
   borderRadius: {
     none: '0',
     xs: '2px',
-    sm: '10px',
-    md: '20px',
-    lg: '30px',
+    sm: '4px',
+    md: '6px',
+    lg: '8px',
     full: '9999px',
   },
 };
