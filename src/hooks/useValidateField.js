@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { expressions, errorMessages } from '../constants/formsData';
 
-export const useValidateForm = ({ value, name }) => {
+export const useValidateField = ({ value, nameField }) => {
   const [isValidated, setIsValidated] = useState(null);
   const [defaultErrorMessage, setDefaultErrorMessage] = useState('Error');
 
   const handleValidated = () => {
     let approvedTest;
 
-    if (name === 'emailOrPhone') {
+    if (nameField === 'emailOrPhone') {
       //Regex to detect if value is only digits
       const valueIsNumber = /^\d+$/.test(value);
       approvedTest = validateEmailOrPhone(valueIsNumber);
@@ -19,8 +19,8 @@ export const useValidateForm = ({ value, name }) => {
 
       value.length === 0 && setDefaultErrorMessage(errorMessages.emailOrPhone);
     } else {
-      approvedTest = expressions[name]?.test(value);
-      setDefaultErrorMessage(errorMessages[name]);
+      approvedTest = expressions[nameField]?.test(value);
+      setDefaultErrorMessage(errorMessages[nameField]);
     }
 
     approvedTest ? setIsValidated(true) : setIsValidated(false);

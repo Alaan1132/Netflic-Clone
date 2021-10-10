@@ -5,11 +5,11 @@ import { options } from '../../../constants/options';
 import styles from './InputForm.module.css';
 import { Paragraph } from '../Paragraph/Paragraph';
 import { useField } from '../../../hooks/useField';
-import { useValidateForm } from '../../../hooks/useValidateForm';
+import { useValidateField } from '../../../hooks/useValidateField';
 
 export const InputForm = ({ type, name, label, customMessage, variant_dark }) => {
   const { value, handleChange } = useField();
-  const { isValidated, handleValidated, defaultErrorMessage } = useValidateForm({ value, name });
+  const { isValidated, handleValidated, defaultErrorMessage } = useValidateField({ value, name });
 
   return (
     <div
