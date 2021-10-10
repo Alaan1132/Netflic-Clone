@@ -34,3 +34,11 @@ ButtonWithIcon.args = {
   iconColor: 'inverted',
   isRounded: true,
 };
+
+export const ButtonWithIconAndLabel = Template.bind({});
+ButtonWithIconAndLabel.args = {
+  type: 'primary',
+  iconColor: 'inverted',
+  isRounded: false,
+  label: 'Comenzar',
+};
