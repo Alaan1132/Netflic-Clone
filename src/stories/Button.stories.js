@@ -4,12 +4,13 @@ import { options } from '../constants';
 export default {
   title: 'Atoms/Buttons',
   component: Button,
-  args: {
-    children: 'Comenzar',
-  },
   argTypes: {
     type: {
       options: options.types,
+      control: { type: 'select' },
+    },
+    size: {
+      options: options.sizes,
       control: { type: 'select' },
     },
   },

@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 import styles from './Button.module.css';
 import { options } from '../../../constants';
 
-export const Button = ({ children, type }) => {
+export const Button = ({ children, type, size }) => {
   return (
     <button
       className={classNames(styles.btn, {
         [styles[type]]: type,
+        [styles[`size-${size}`]]: size,
       })}>
       {children}
     </button>
@@ -20,6 +21,6 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  children: 'hello',
+  children: 'Comenzar',
   type: 'primary',
 };
