@@ -21,6 +21,6 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  children: 'Comenzar',
+  children: 'Siguiente',
   type: 'primary',
 };

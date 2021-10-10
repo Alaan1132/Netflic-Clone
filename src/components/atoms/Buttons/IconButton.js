@@ -29,5 +29,7 @@ IconButton.propTypes = {
 
 IconButton.defaultProps = {
   type: 'primary',
+  size: 'md',
+  iconName: 'caretDown',
   isRounded: false,
 };
