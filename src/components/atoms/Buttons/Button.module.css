@@ -12,7 +12,6 @@
 .secondary {
   background-color: var(--color--base--white);
 }
-
 .tertiary {
   background-color: var(--color--tertiary);
   color: var(--color--fontBaseInverted);
@@ -24,4 +23,24 @@
 .outline-muted {
   border: 2px solid var(--color--fontBaseMuted);
   color: var(--color--fontBaseMuted);
+}
+.size-xs {
+  font-size: var(--fontSize--xs);
+}
+.size-sm {
+  font-size: var(--fontSize--sm);
+}
+.size-md {
+  font-size: var(--fontSize--md);
+}
+.size-lg {
+  font-size: var(--fontSize--lg);
+}
+.size-xl {
+  font-size: var(--fontSize--xl);
+}
+
+.isRounded {
+  border-radius: 100%;
+  padding: var(--padding--base);
 }
