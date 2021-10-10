@@ -1,8 +1,6 @@
 import { InputForm } from '../components/atoms/Input';
 import { options } from '../constants';
 
-import { action } from '@storybook/addon-actions';
-
 export default {
   title: 'Atoms/Input',
   component: InputForm,
@@ -14,9 +12,7 @@ export default {
   },
 };
 
-const Template = (args) => <InputForm handleInputChange={action('onchange')} {...args} />;
-
-export const Default = Template.bind({});
+const Template = (args) => <InputForm {...args} />;
 
 export const Email = Template.bind({});
 Email.args = {
