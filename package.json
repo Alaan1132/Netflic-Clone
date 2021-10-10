@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-tokens": "node src/scripts/build-tokens.js",
     "test": "jest",
     "eject": "react-scripts eject",
     "dev": "npm run storybook",
