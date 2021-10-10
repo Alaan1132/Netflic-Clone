@@ -6,7 +6,6 @@ import { iconsMap, options } from '../../../constants';
 import styles from './Icon.module.css';
 
 export const Icon = ({ name, size, color, ...props }) => {
-  console.log(styles[`color-${color}`]);
   const icon = iconsMap[name];
   const mappedSize = mapSize(size);
 

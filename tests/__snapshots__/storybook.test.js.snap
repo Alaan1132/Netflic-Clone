@@ -123,6 +123,171 @@ exports[`Storyshots Atoms/Icon Default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Atoms/Input Dark 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="input__group"
+  >
+    <input
+      autoComplete="off"
+      className="input input__dark"
+      id="password"
+      name="password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyUp={[Function]}
+      type="password"
+      value=""
+    />
+    <label
+      className="label label__dark"
+      htmlFor="password"
+    >
+      Insert your password
+    </label>
+  </div>
+  <p
+    className="paragraph size-md weight-normal"
+  >
+    Error
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Default 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="input__group"
+  >
+    <input
+      autoComplete="off"
+      className="input"
+      id="password"
+      name="password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyUp={[Function]}
+      type="password"
+      value=""
+    />
+    <label
+      className="label"
+      htmlFor="password"
+    >
+      Insert your password
+    </label>
+  </div>
+  <p
+    className="paragraph size-md weight-normal"
+  >
+    Error
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Email 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="input__group"
+  >
+    <input
+      autoComplete="off"
+      className="input"
+      id="email"
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyUp={[Function]}
+      type="email"
+      value=""
+    />
+    <label
+      className="label"
+      htmlFor="email"
+    >
+      Insert your email
+    </label>
+  </div>
+  <p
+    className="paragraph size-md weight-normal"
+  >
+    Error
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Email Or Number 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="input__group"
+  >
+    <input
+      autoComplete="off"
+      className="input"
+      id="emailOrPhone"
+      name="emailOrPhone"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyUp={[Function]}
+      type="text"
+      value=""
+    />
+    <label
+      className="label"
+      htmlFor="emailOrPhone"
+    >
+      Insert your email or number
+    </label>
+  </div>
+  <p
+    className="paragraph size-md weight-normal"
+  >
+    Error
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Password 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="input__group"
+  >
+    <input
+      autoComplete="off"
+      className="input"
+      id="password"
+      name="password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyUp={[Function]}
+      type="password"
+      value=""
+    />
+    <label
+      className="label"
+      htmlFor="password"
+    >
+      Insert your password
+    </label>
+  </div>
+  <p
+    className="paragraph size-md weight-normal"
+  >
+    Error
+  </p>
+</div>
+`;
+
 exports[`Storyshots Atoms/Links Default 1`] = `
 <a
   className="link size-md"
