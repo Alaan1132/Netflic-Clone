@@ -34,7 +34,7 @@ const buildTokens = () => {
   const customProperties = `${transformedChoices};\n\n ${transformedDecisions}`;
   const data = `:root {\n${customProperties};\n}`;
 
-  fs.writeFile('./styles/tokens.css', data, 'utf8', (err) => {
+  fs.writeFile('./src/styles/tokens.css', data, 'utf8', (err) => {
     if (err) return console.error(err);
     console.log(['Succes']);
   });

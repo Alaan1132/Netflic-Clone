@@ -99,6 +99,9 @@ const decisions = {
     primary: choices.color.base.dark,
     secondary: choices.color.base.white,
   },
+  forms: {
+    errorMessage: choices.color.brand.fulvous,
+  },
 };
 
 module.exports = { choices, decisions };
