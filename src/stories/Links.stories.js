@@ -24,10 +24,12 @@ const Template = (args) => <Link {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   children: 'Link',
+  to: '/',
 };
 
 export const SignUp = Template.bind({});
 SignUp.args = {
   children: 'Iniciar sesion',
   type: 'primary',
+  to: '/login',
 };

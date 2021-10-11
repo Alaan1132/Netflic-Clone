@@ -3,17 +3,18 @@ import classNames from 'classnames';
 
 import styles from './Links.module.css';
 import { options } from '../../../constants';
+import { Link as RouterLink } from 'react-router-dom';
 
-export const Link = ({ children, path, type, size }) => {
+export const Link = ({ children, to, type, size }) => {
   return (
-    <a
-      href={path}
+    <RouterLink
+      to={to}
       className={classNames(styles.link, {
         [styles[type]]: type,
         [styles[`size-${size}`]]: size,
       })}>
       {children}
-    </a>
+    </RouterLink>
   );
 };
 
