@@ -4,6 +4,10 @@
   padding: var(--padding--xs) var(--padding--md);
   border-radius: var(--borderRadius--xs);
   display: flex;
+  align-items: center;
+}
+.btnIcon {
+  gap: 0.2rem;
 }
 .primary {
   background-color: var(--color--primary);

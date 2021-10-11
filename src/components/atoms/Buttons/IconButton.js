@@ -9,7 +9,7 @@ import styles from './Button.module.css';
 export const IconButton = ({ label, type, size, iconName, iconColor, isRounded, ...props }) => {
   return (
     <button
-      className={classNames(styles.btn, {
+      className={classNames(styles.btn, styles.btnIcon, {
         [styles[type]]: type,
         [styles[`size-${size}`]]: size,
         [styles.isRounded]: isRounded,
@@ -23,6 +23,9 @@ export const IconButton = ({ label, type, size, iconName, iconColor, isRounded, 
 
 IconButton.propTypes = {
   label: PropTypes.string,
+  size: PropTypes.oneOf(options.sizes),
+  iconColor: PropTypes.oneOf(options.colors),
+  iconName: PropTypes.oneOf(options.names),
   type: PropTypes.oneOf(options.types).isRequired,
   isRounded: PropTypes.bool,
 };
