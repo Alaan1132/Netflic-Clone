@@ -1,4 +1,4 @@
-import { Button } from '../../components/atoms/Buttons/Button';
+import { Button } from '../../components';
 import { options } from '../../constants';
 
 const Template = (args) => <Button {...args} />;

@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { Icon } from '../components/atoms/Icons';
+import { Icon } from '../components';
 import { options } from '../constants';
 
 export default {

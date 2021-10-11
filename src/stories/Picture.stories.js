@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { Picture } from '../components/atoms/Picture';
+import { Picture } from '../components';
 
 export default {
   title: 'Atoms/Picture',

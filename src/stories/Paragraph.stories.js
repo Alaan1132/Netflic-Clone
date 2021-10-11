@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { Paragraph } from '../components/atoms/Paragraph';
+import { Paragraph } from '../components';
 import { options } from '../constants';
 
 export default {

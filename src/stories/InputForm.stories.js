@@ -1,4 +1,4 @@
-import { InputForm } from '../components/atoms/Input';
+import { InputForm } from '../components';
 import { options } from '../constants';
 
 export default {

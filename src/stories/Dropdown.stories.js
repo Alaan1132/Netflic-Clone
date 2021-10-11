@@ -1,6 +1,4 @@
-import React from 'react';
-import { Dropdown } from '../components/molecules/Dropdown';
-import { Icon } from '../components/atoms/Icons';
+import { Dropdown, Icon } from '../components';
 import { options } from '../constants';
 
 export default {

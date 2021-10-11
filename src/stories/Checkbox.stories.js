@@ -1,4 +1,4 @@
-import { Checkbox } from '../components/atoms/Checkbox';
+import { Checkbox } from '../components';
 import { options } from '../constants';
 
 export default {

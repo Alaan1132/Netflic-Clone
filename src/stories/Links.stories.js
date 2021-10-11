@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { Link } from '../components/atoms/Links';
+import { Link } from '../components';
 import { options } from '../constants';
 
 export default {

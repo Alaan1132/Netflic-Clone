@@ -1,4 +1,4 @@
-import { IconButton } from '../../components/atoms/Buttons';
+import { IconButton } from '../../components';
 import { options } from '../../constants';
 
 const argTypes = {

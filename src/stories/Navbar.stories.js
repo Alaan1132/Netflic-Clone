@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { Navbar } from '../components/layout/Navbar';
+import { Navbar, Picture } from '../components';
 import { SignUp } from './Links.stories';
 import { SelectLanguage } from './Dropdown.stories';
-import { Picture } from '../components/atoms/Picture/Picture';
 import utilStyles from '../utils/tools-styles.module.css';
 
 export default {
