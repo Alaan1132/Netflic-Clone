@@ -1,5 +1,4 @@
 import React from 'react';
-
 import styles from './Navbar.module.css';
 
 export const Navbar = ({ children, ...restProps }) => {
@@ -26,11 +25,14 @@ Navbar.Primary = ({ children, ...restProps }) => {
   );
 };
 
-Navbar.Secondary = ({ children, ...restProps }) => {
+Navbar.Secondary = ({ children, empty, ...restProps }) => {
+  if (empty) return <></>;
   return (
-    <div className={styles.secondary} {...restProps}>
-      {children}
-    </div>
+    <>
+      <div className={styles.secondary} {...restProps}>
+        {children}
+      </div>
+    </>
   );
 };
 

@@ -4,7 +4,7 @@ import { LoginPage, LandingPage } from '../pages';
 const AppRoutes = () => {
   return (
     <>
-      <dir>
+      <div>
         <Switch>
           <Route exact path="/">
             <LandingPage />
@@ -13,7 +13,7 @@ const AppRoutes = () => {
             <LoginPage />
           </Route>
         </Switch>
-      </dir>
+      </div>
     </>
   );
 };

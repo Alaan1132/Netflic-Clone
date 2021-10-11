@@ -1,8 +1,10 @@
+import { NavbarAuth } from './components';
 import AppRoutes from './routes/AppRoutes';
 
 const App = () => {
   return (
-    <div>
+    <div style={{ width: '95%', margin: '0 auto' }}>
+      <NavbarAuth />
       <AppRoutes />
     </div>
   );

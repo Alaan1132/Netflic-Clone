@@ -317,6 +317,8 @@ exports[`Storyshots Atoms/Input Password 1`] = `
 exports[`Storyshots Atoms/Links Default 1`] = `
 <a
   className="link size-md"
+  href="/"
+  onClick={[Function]}
 >
   Link
 </a>
@@ -325,6 +327,8 @@ exports[`Storyshots Atoms/Links Default 1`] = `
 exports[`Storyshots Atoms/Links Sign Up 1`] = `
 <a
   className="link primary size-md"
+  href="/login"
+  onClick={[Function]}
 >
   Iniciar sesion
 </a>
@@ -383,7 +387,40 @@ exports[`Storyshots Atoms/Picture Default 1`] = `
 </picture>
 `;
 
-exports[`Storyshots Layout/Navbar Nav Landing Page 1`] = `
+exports[`Storyshots Layout/Navbar Empty Navbar 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="inner_container"
+  >
+    <div
+      className="primary"
+    >
+      <div
+        className="logo"
+      >
+        <picture
+          className="picture"
+        >
+          <img
+            alt="img"
+            src="https://res.cloudinary.com/desxpqy6n/image/upload/v1630518956/Netflix%20Clone/netflix-logo_kuii2i.png"
+            style={
+              Object {
+                "height": "auto",
+                "maxWidth": "100%",
+              }
+            }
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Storyshots Layout/Navbar Login Navbar 1`] = `
 <nav
   className="navbar"
 >
@@ -518,7 +555,9 @@ exports[`Storyshots Layout/Navbar Nav Landing Page 1`] = `
         </div>
       </div>
       <a
-        className="link primary size-xs"
+        className="link primary size-sm"
+        href="/login"
+        onClick={[Function]}
       >
         Iniciar sesion
       </a>
@@ -527,9 +566,9 @@ exports[`Storyshots Layout/Navbar Nav Landing Page 1`] = `
 </nav>
 `;
 
-exports[`Storyshots Layout/Navbar Signup Navbar 1`] = `
+exports[`Storyshots Layout/Navbar Sign Up Navbar 1`] = `
 <nav
-  className="border--bottom"
+  className="navbar"
 >
   <div
     className="inner_container"
@@ -560,9 +599,11 @@ exports[`Storyshots Layout/Navbar Signup Navbar 1`] = `
       className="secondary"
     >
       <a
-        className="link primary size-xs"
+        className="link secondary size-sm"
+        href="/login"
+        onClick={[Function]}
       >
-        Cerrar sesion
+        Iniciar sesion
       </a>
     </div>
   </div>
