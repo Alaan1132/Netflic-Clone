@@ -2,7 +2,7 @@
 
 exports[`Storyshots Atoms/Buttons Button With Icon 1`] = `
 <button
-  className="btn primary size-md isRounded"
+  className="btn btnIcon primary size-md isRounded"
 >
   <div
     className="icon"
@@ -31,7 +31,7 @@ exports[`Storyshots Atoms/Buttons Button With Icon 1`] = `
 
 exports[`Storyshots Atoms/Buttons Button With Icon And Label 1`] = `
 <button
-  className="btn primary size-md"
+  className="btn btnIcon primary size-md"
 >
   Comenzar
   <div
@@ -61,7 +61,7 @@ exports[`Storyshots Atoms/Buttons Button With Icon And Label 1`] = `
 
 exports[`Storyshots Atoms/Buttons Default 1`] = `
 <button
-  className="btn primary"
+  className="btn primary size-md"
 >
   Siguiente
 </button>
@@ -78,27 +78,27 @@ exports[`Storyshots Atoms/Buttons Types 1`] = `
   }
 >
   <button
-    className="btn primary"
+    className="btn primary size-md"
   >
     Siguiente
   </button>
   <button
-    className="btn secondary"
+    className="btn secondary size-md"
   >
     Siguiente
   </button>
   <button
-    className="btn tertiary"
+    className="btn tertiary size-md"
   >
     Siguiente
   </button>
   <button
-    className="btn outline-primary"
+    className="btn outline-primary size-md"
   >
     Siguiente
   </button>
   <button
-    className="btn outline-muted"
+    className="btn outline-muted size-md"
   >
     Siguiente
   </button>
@@ -202,39 +202,6 @@ exports[`Storyshots Atoms/Input Dark 1`] = `
     />
     <label
       className="label label__dark"
-      htmlFor="password"
-    >
-      Insert your password
-    </label>
-  </div>
-  <p
-    className="paragraph size-md weight-normal"
-  >
-    Error
-  </p>
-</div>
-`;
-
-exports[`Storyshots Atoms/Input Default 1`] = `
-<div
-  className="group"
->
-  <div
-    className="input__group"
-  >
-    <input
-      autoComplete="off"
-      className="input"
-      id="password"
-      name="password"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onKeyUp={[Function]}
-      type="password"
-      value=""
-    />
-    <label
-      className="label"
       htmlFor="password"
     >
       Insert your password
